@@ -1,14 +1,10 @@
-# The Official raywenderlich.com Kotlin Style Guide (in progress)
-
-This style guide is different from others you may see, because the focus is centered on readability for print and the web. We created this style guide to keep the code in our tutorials consistent.
+# The Official Oak City Labs Kotlin Style Guide (in progress)
 
 Our overarching goals are __conciseness__, __readability__ and __simplicity__.
 
 You should also check out our other style guides:
 
-* [Swift](https://github.com/raywenderlich/swift-style-guide)
-* [Objective-C](https://github.com/raywenderlich/objective-c-style-guide)
-* [Java](https://github.com/raywenderlich/java-style-guide)
+* [Java](https://github.com/oakcitylabs/java-style-guide)
 
 ## Inspiration
 
@@ -19,11 +15,9 @@ This style-guide is somewhat of a mash-up between the existing Kotlin language s
 - The [Android contributors style guide](https://source.android.com/source/code-style.html)
 - The [Google Java Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html).
 
-Alterations to support additional readability in tutorials were inspired by the [raywenderlich.com Swift style guide](https://github.com/raywenderlich/swift-style-guide).
-
 ## Android Studio Coding Style
 
-It is possible to get Android Studio to adhere to these style guidelines, via a rather complex sequence of menus. To make it easier, we've provided a coding style that can be imported into Android Studio.
+It is possible to get Android Studio to adhere to these style guidelines, via a rather complex sequence of menus. To make it easier, you can use this file from raywenderlich.
 
 The file can be found [here](https://koenig-media.raywenderlich.com/uploads/2018/03/rwstyle.xml_.zip).
 
@@ -79,13 +73,13 @@ Package names are similar to Java: all __lower-case__, multiple words concatenat
 __BAD__:
 
 ```kotlin
-com.RayWenderlich.funky_widget
+com.OakCityLabs.funky_widget
 ```
 
 __GOOD__:
 
 ```kotlin
-com.raywenderlich.funkywidget
+com.oakcitylabs.funkywidget
 ```
 
 ### Classes & Interfaces
@@ -213,10 +207,6 @@ Enum classes without methods may be formatted without line-breaks, as follows:
 ```kotlin
 private enum CompassDirection { EAST, NORTH, WEST, SOUTH }
 ```
-
-## Spacing
-
-Spacing is especially important in raywenderlich.com code, as code needs to be easily readable as part of the tutorial. 
 
 ### Indentation
 
@@ -482,7 +472,7 @@ if let unwrappedSubview = optionalSubview {
 
 ## XML Guidance
 
-Since Android uses XML extensively in addition to Kotlin and Java, we have some rules specific to XML. These can be found in our [Java code standards](https://github.com/raywenderlich/java-style-guide#xml-guidance
+Since Android uses XML extensively in addition to Kotlin and Java, we have some rules specific to XML. These can be found in our [Java code standards](https://github.com/oakcitylabs/java-style-guide#xml-guidance)
 
 
 ## Language
@@ -501,61 +491,7 @@ __GOOD:__
 colorName = "red"
 ```
 
-## Copyright Statement
-
-The following copyright statement should be included at the top of every source file:
-
-    /*
-     * Copyright (c) 2018 Razeware LLC
-     * 
-     * Permission is hereby granted, free of charge, to any person obtaining a copy
-     * of this software and associated documentation files (the "Software"), to deal
-     * in the Software without restriction, including without limitation the rights
-     * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-     * copies of the Software, and to permit persons to whom the Software is
-     * furnished to do so, subject to the following conditions:
-     * 
-     * The above copyright notice and this permission notice shall be included in
-     * all copies or substantial portions of the Software.
-     * 
-     * Notwithstanding the foregoing, you may not use, copy, modify, merge, publish, 
-     * distribute, sublicense, create a derivative work, and/or sell copies of the 
-     * Software in any work that is designed, intended, or marketed for pedagogical or 
-     * instructional purposes related to programming, coding, application development, 
-     * or information technology.  Permission for such use, copying, modification,
-     * merger, publication, distribution, sublicensing, creation of derivative works, 
-     * or sale is expressly withheld.
-     *
-     * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-     * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-     * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-     * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-     * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-     * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-     * THE SOFTWARE.
-     */
-
-## Smiley Face
-
-Smiley faces are a very prominent style feature of the raywenderlich.com site! It is very important to have the correct smile signifying the immense amount of happiness and excitement for the coding topic. The closing square bracket ] is used because it represents the largest smile able to be captured using ASCII art. A closing parenthesis ) creates a half-hearted smile, and thus is not preferred.
-
-Bad:
-
-    :)
-
-Good:
-
-    :]
 
 ## Credits
 
-This style guide is a collaborative effort from the most stylish
-raywenderlich.com team members:
-
-- [Darryl Bayliss](https://github.com/DarrylBayliss)
-- [Tom Blankenship](https://github.com/tgblank)
-- [Sam Davies](https://github.com/sammyd)
-- [Mic Pringle](https://github.com/micpringle)
-- [Ellen Shapiro](https://github.com/designatednerd)
-- [Ray Wenderlich](https://github.com/rwenderlich)
-- [Joe Howard](https://github.com/orionthwake)
+This style guide is based off of (forked from) the raywenderlich.com [Kotlin style guide](https://github.com/raywenderlich/kotlin-style-guide)
